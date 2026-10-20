@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Codificação: garante acentos corretos -->
+    <meta charset="UTF-8">
+    <!-- Responsividade: essencial para celular -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título: aparece na aba e no Google -->
+    <title>UnderVolt — Gerando Network</title>
+    <!-- Descrição: o texto abaixo do título nos resultados de busca -->
+    <meta name="description" content="Colabs - Network - Songwars - Catalogo de beats - Outros">
+    <!-- Compartilhamento no WhatsApp e nas redes sociais -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="UnderVolt — Gerando Network">
+    <meta property="og:description" content="Colabs - Network - Songwars - Catalogo de beats - Outros">
+    <meta property="og:url" content="https://undervolt.com.br">
+    <meta property="og:image" content="https://undervolt.com.br/capa.png">
+    <!-- Ícone da aba, feito com um emoji -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20viewBox%3D&#39;0%200%20100%20100&#39;%3E%3Ctext%20y%3D&#39;.9em&#39;%20font-size%3D&#39;90&#39;%3E%F0%9F%94%8A%E2%80%8B%3C%2Ftext%3E%3C%2Fsvg%3E">
+    <!-- Estilos: quando o site crescer, mova para um arquivo style.css -->
+    <style>
+        :root { --cor: #ff0000; --sobre-cor: #111827; --link: #eb0000; }
+        * { box-sizing: border-box; }
+        body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: #1f2937; line-height: 1.6; background: #ffffff; }
+        a { color: var(--link); }
+        .container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+        header { border-bottom: 1px solid #e5e7eb; }
+        header .container { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding-top: 14px; padding-bottom: 14px; }
+        .marca { font-weight: 700; font-size: 1.2rem; color: #111827; text-decoration: none; }
+        nav a { margin-left: 16px; text-decoration: none; font-weight: 600; }
+        .destaque { padding: 64px 0; background: #f9fafb; text-align: center; }
+        .destaque h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin: 0 0 12px; color: #111827; }
+        .destaque p { font-size: 1.15rem; margin: 0 0 24px; color: #374151; }
+        .botao { display: inline-block; background: var(--cor); color: var(--sobre-cor); padding: 14px 28px; border-radius: 999px; font-weight: 700; text-decoration: none; }
+        section { padding: 48px 0; }
+        h2 { font-size: 1.6rem; color: #111827; margin: 0 0 16px; }
+        .grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; }
+        .cartao { border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px; }
+        .cartao h3 { margin: 0 0 8px; color: var(--link); }
+        footer { border-top: 1px solid #e5e7eb; padding: 24px 0; color: #4b5563; font-size: 0.95rem; text-align: center; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a class="marca" href="#">UnderVolt</a>
+            <nav aria-label="Menu principal">
+                <a href="#sobre">Sobre</a>
+                <a href="#servicos">Serviços</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="destaque">
+            <div class="container">
+                <h1>UnderVolt</h1>
+                <p>BEM VINDO AO SUBMUNDO DA MUSICA</p>
+                <a class="botao" href="https://wa.me/5535991406956?text=Ol%C3%A1!%20Vim%20pelo%20site.">Chamar no WhatsApp</a>
+            </div>
+        </section>
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre</h2>
+                <p>Somos o seu portal para o underground da musica</p>
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="container">
+                <h2>Serviços</h2>
+                <div class="grade">
+                    <article class="cartao"><h3>Beats</h3><p>A gente pode conectar voce com beatmakers profissionais e competentes</p></article>
+                    <article class="cartao"><h3>Mixagem</h3><p>Temos uma equipe de engenheiros de mixagem e masterizaçao</p></article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 UnderVolt</p>
+    </footer>
+</body>
+</html>
